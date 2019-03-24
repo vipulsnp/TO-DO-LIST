@@ -1,0 +1,109 @@
+*{
+    
+    box-sizing: border-box;
+    margin:0 auto;
+    
+}
+
+body{
+    
+    background: #dd3e54;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container{
+    
+    background-color: #7fffd4;
+    width: 450px;
+    margin: 100px auto;
+    box-shadow: 0 0 5px rgba(37, 30, 211, 20);
+}
+
+
+h1{
+    padding:10px 20px;
+    background-color: #fff2e1;
+    color: #5ebe00;
+    font-size: 50px;    
+    margin: 0;
+    font-style: italic;
+    font-family: "Germania One";
+    
+}
+
+.fa-plus-circle{
+    float:right;
+    
+}
+
+
+
+#input{
+    font-size:40px;
+    background-color:#00ffff;
+    padding: 10px 15px;
+    width:100%;
+    color: #8a2be2;
+    font-family: "Tangerine";
+    border:3px solid rgba(0, 0, 0, 0);
+}
+
+#input:focus{
+    outline: none;
+    border: 3px solid gray;
+    background-color: #f0ffff;
+ }
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        font-family: "Tangerine";
+    font-size: 50px;
+}
+
+li{
+    height: 55px;
+    line-height: 55px;
+    color: #0f2dd1;
+  background: #1E9600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+li:nth-child(2n)
+{   
+    
+    background: #544a7d;  
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  
+background: linear-gradient(to right, #ffd452, #544a7d);
+
+}
+
+
+.delete{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ff0000;
+    margin-right: 20px;
+    height: 50px;
+    width: 0;
+    display: inline-block;
+    opacity:0;
+}
+
+li:hover .delete{
+    opacity:1.0;
+    width:55px;
+    color:#ffffff;
+    transition: 0.3s linear;
+}
+.completed{
+    
+    text-decoration: line-through;
+}
